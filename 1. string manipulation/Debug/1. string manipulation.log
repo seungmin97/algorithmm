@@ -1,5 +1,0 @@
-﻿  FileName.cpp
-c:\users\sens\source\repos\1. string manipulation\filename.cpp(25): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-c:\users\sens\source\repos\1. string manipulation\filename.cpp(18): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
-c:\users\sens\source\repos\1. string manipulation\filename.cpp(31): warning C4700: 초기화되지 않은 'FILE' 지역 변수를 사용했습니다.
-  1. string manipulation.vcxproj -> C:\Users\sens\Source\Repos\1. string manipulation\Debug\1. string manipulation.exe
