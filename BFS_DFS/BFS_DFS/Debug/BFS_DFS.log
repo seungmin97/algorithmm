@@ -1,0 +1,6 @@
+﻿  Hide and Seek.cpp
+c:\users\user\desktop\algorithm\bfs_dfs\bfs_dfs\hide and seek.cpp(50): warning C4101: 'k' :참조되지 않은 지역 변수입니다.
+c:\users\user\desktop\algorithm\bfs_dfs\bfs_dfs\hide and seek.cpp(50): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+c:\users\user\desktop\algorithm\bfs_dfs\bfs_dfs\hide and seek.cpp(50): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+c:\users\user\desktop\algorithm\bfs_dfs\bfs_dfs\hide and seek.cpp(43): warning C4717: 'BFS::make_graph': 모든 제어 경로에서 재귀적입니다. 함수로 인해 런타임 스택 오버플로가 발생합니다.
+  BFS_DFS.vcxproj -> C:\Users\user\Desktop\algorithm\BFS_DFS\Debug\BFS_DFS.exe
