@@ -1,0 +1,3 @@
+ NuclerEng  : sum = 1300	 ave = 325
+ MechnicalEng  : sum = 630	 ave = 157.5
+ ChemicalEng  : sum = 840	 ave = 210
