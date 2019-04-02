@@ -1,4 +1,8 @@
+//메모리초과
+
 #include <iostream>
+#include <string>
+#include <math.h>
 
 using namespace std;
 
@@ -6,57 +10,57 @@ using namespace std;
 class BFS{
 	
 public:
-	int left;
-	int middle;
-	int right;
-	int check = -1;
-	int level = 0;
-	int count = 0;
 	int *bfs;
+	int length;
 
-	void make_graph(int seek);
+	void make_graph(int *before_bfs, int *b, int length);
 
 };
 
-void BFS::make_graph(int temp) {
-	check += 1;
+void BFS::make_graph(int *before_bfs, int *bfs, int length) {
 	
-	left = temp - 1;
-	middle = temp + 1;
-	right = 2 * temp;
+	int count = 0;
 
-	bfs[count++] = temp - 1;
-	bfs[count++] = temp + 1;
-	bfs[count++] = 2 * temp;
-
-	if (check % 3 == 0) {
-		make_graph(left);
-		//check += 1;
-	}
-	else if (check % 3 == 1) {
-		make_graph(middle);
-		//check += 1;
-	}
-	else {
-		make_graph(right);
+	for (int j = 0; j < length; j++) {
+		bfs[count++] = before_bfs[j] - 1;
+		bfs[count++] = before_bfs[j] + 1;
+		bfs[count++] = before_bfs[j] * 2;
 	}
 }
 
 int main() {
 
-	BFS bfs_;
+	BFS *bfs_;
 
 	int hide, seek;
-	int i, j, k;
+	int i = 0, j, k;
 
-	//cin >> seek >> hide;
-	seek = 5;
-	hide = 17;
-
-	bfs_.bfs = new int[hide - seek];
-
-	bfs_.make_graph(seek);
+	cin >> seek >> hide;
 	
+	bfs_ = new BFS[hide - seek];
+
+	while(1){	
+		
+		if (i == 0) {
+			bfs_[i].bfs = new int[1];
+			bfs_[i].length = 1;
+			bfs_[i].bfs[0] = seek;
+		}
+		else {
+			int mul = pow(3, i - 1);
+			bfs_[i].length = 3 * mul;
+			bfs_[i].bfs = new int[3 * mul];
+			bfs_[i].make_graph(bfs_[i-1].bfs, bfs_[i].bfs, bfs_[i - 1].length);
+
+			for (k = 0; k < bfs_[i].length; k++) {
+				if (bfs_[i].bfs[k] == hide) {
+					cout << i << "초" << endl;
+					return 0;
+				}
+			}
+		}
+		i += 1;
+	}
 	return 0;
 }
 
