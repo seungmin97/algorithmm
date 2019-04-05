@@ -1,5 +1,7 @@
 ﻿  FileNameSort.cpp
-c:\users\user\desktop\algorithm\1. string manipulation\1. string manipulation\filenamesort.cpp(47): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-c:\users\user\desktop\algorithm\1. string manipulation\1. string manipulation\filenamesort.cpp(68): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-c:\users\user\desktop\algorithm\1. string manipulation\1. string manipulation\filenamesort.cpp(57): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+c:\users\user\desktop\algorithm\1. string manipulation\1. string manipulation\filenamesort.cpp(52): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\user\desktop\algorithm\1. string manipulation\1. string manipulation\filenamesort.cpp(81): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\user\desktop\algorithm\1. string manipulation\1. string manipulation\filenamesort.cpp(89): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\user\desktop\algorithm\1. string manipulation\1. string manipulation\filenamesort.cpp(70): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+c:\users\user\desktop\algorithm\1. string manipulation\1. string manipulation\filenamesort.cpp(70): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
   1. string manipulation.vcxproj -> C:\Users\user\Desktop\algorithm\1. string manipulation\Debug\1. string manipulation.exe

@@ -13,12 +13,15 @@ class File {
 public:
 	string head;
 	int num;
+	string str;
 	string num_;
 	int index;
 	string tail;
-	void divide(string str);
+	File(string str);
+
 	int is_num(char a);
 };
+
 
 int File::is_num(char a) {
 	if (((int)a >= 48) && ((int)a <= 57)) {
@@ -29,7 +32,9 @@ int File::is_num(char a) {
 	}
 }
 
-void File::divide(string str) {
+File::File(string str) {
+
+	this->str = str;
 
 	index = 0;
 	while (!is_num(str[index])) {
@@ -52,25 +57,33 @@ void File::divide(string str) {
 }
 
 
+
+bool cmp(const File &u, const File &v) {
+	if (u.head == v.head) {
+		return u.num < v.num;
+	}
+	else return u.head < v.head;
+}
+
 int main() {
 
 	int i, j;
 
-//	//string *FILE;
-//	string str;
-///	cin >> str;
 	int num = 0;
 
 	vector<string> FileNames = { "F-5 Freedom Fighter", "B-50 Superfortress", "A-10 Thunderbolt II", "F-14 Tomcat" };
 
-	File *file = new File[FileNames.size()];
+	vector<File> file;
 
-	for (i = 0; i < FileNames.size(); i++) {
-
-		file[i].divide(FileNames[i]);
+	for (int i = 0; i < FileNames.size(); i++) {
+		file.push_back(File(FileNames[i]));
 	}
+
+	sort(file.begin(), file.end(), cmp);
 	
-	
+	for (int i = 0; i < file.size(); i++) {
+		cout << file[i].str << endl;
+	}
 
 	return 0;
 }
