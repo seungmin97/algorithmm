@@ -9,9 +9,7 @@ vector <int> vec(12, 0);
 
 void make_result(int i) {
 
-
 	for (int j = 1; j <= 3; j++) {
-		s
 			if ((i - j) >= 0)
 			{
 				vec.at(i) += vec.at(i - j);
