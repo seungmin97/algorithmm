@@ -1,2 +1,2 @@
-﻿  number_board.cpp
+﻿  board_jump.cpp
 LINK : fatal error LNK1168: C:\Users\sens\Desktop\algorithm\4. brute-force\Debug\4. brute-force.exe을(를) 쓰기용으로 열 수 없습니다.
