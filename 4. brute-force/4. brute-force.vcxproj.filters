@@ -27,5 +27,8 @@
     <ClCompile Include="zerosum.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="number_board.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
