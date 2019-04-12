@@ -40,6 +40,7 @@ int main() {
 	
 	//sum2에 같은 값이 여러개 있을 경우 갯수 count
 	vector<pair<long long, int>> check;
+
 	for (int i = 0; i < sum2.size(); i++) {
 			if (sum2.at(i) == sum2.at(i + 1)) {
 				int j = 1;
@@ -62,7 +63,6 @@ int main() {
 				}
 			}
 	}
-
 
 	for (int i = 0; i < sum1.size(); i++) {
 		long long temp = sum1.at(i) * (-1);

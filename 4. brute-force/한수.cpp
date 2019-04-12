@@ -7,11 +7,6 @@ using namespace std;
 
 int main() {
 
-	//321
-	//46
-	//11
-	//64
-
 	int num;
 	//num = 1000;
 	int count = 0;
@@ -19,7 +14,7 @@ int main() {
 	cin >> num;
 
 	if (num < 100) {
-		cout << num<<endl;
+		cout << num << endl;
 		return 0;
 	}
 	else {

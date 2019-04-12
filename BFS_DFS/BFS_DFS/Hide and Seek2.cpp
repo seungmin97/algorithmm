@@ -1,4 +1,5 @@
 //시간초과
+//visit 추가해야함
 
 #include <iostream>
 #include <queue>
@@ -47,8 +48,10 @@ void make_graph(Variable v) {
 			}
 		}
 
+		vector
 		if (((temp - 1) != v.hide) && ((temp - 1) != v.hide) && ((2 * temp) != v.hide))
 		{
+			
 			v.q.push(temp - 1);
 			v.q.push(temp + 1);
 			v.q.push(2 * temp);
