@@ -1,3 +1,5 @@
+//https://www.acmicpc.net/problem/4889
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -30,8 +32,7 @@ void check_str(string str, int count) {
 			j += 1;
 		}
 	}
-
-
+	
 	//{{}}ÀÎ °æ¿ì
 	for (int j = 0; j < v[count].size() - 1; j++) {
 		if ((v[count].at(j) == 0) && (v[count].at(j + 1) == -1)) {
@@ -60,7 +61,7 @@ int main() {
 	int num = 0;
 	while (1) {
 		cin >> str;
-		if (str.at(0) == '-') {
+		if(str.find('-', 0) != -1){
 			break;
 		}
 
