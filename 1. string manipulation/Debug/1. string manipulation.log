@@ -1,0 +1,14 @@
+﻿  Cameleon.cpp
+c:\users\sens\desktop\algorithm\1. string manipulation\cameleon.cpp(17): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\sens\desktop\algorithm\1. string manipulation\cameleon.cpp(21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\sens\desktop\algorithm\1. string manipulation\cameleon.cpp(33): error C2664: 'void std::vector<std::string,std::allocator<_Ty>>::push_back(_Ty &&)': 인수 1을(를) 'std::string *'에서 'const _Ty &'(으)로 변환할 수 없습니다.
+          with
+          [
+              _Ty=std::string
+          ]
+  c:\users\sens\desktop\algorithm\1. string manipulation\cameleon.cpp(33): note: 원인: 'std::string *'에서 'const _Ty'(으)로 변환할 수 없습니다.
+          with
+          [
+              _Ty=std::string
+          ]
+  c:\users\sens\desktop\algorithm\1. string manipulation\cameleon.cpp(33): note: 소스 형식을 가져올 수 있는 생성자가 없거나 생성자 오버로드 확인이 모호합니다.
