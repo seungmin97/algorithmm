@@ -3,4 +3,4 @@ project(7__Greedy_Algorithm)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(7__Greedy_Algorithm main.cpp)
+add_executable(7__Greedy_Algorithm CuttingTree.cpp)

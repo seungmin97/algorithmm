@@ -57,27 +57,27 @@ include CMakeFiles/7__Greedy_Algorithm.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/7__Greedy_Algorithm.dir/flags.make
 
-CMakeFiles/7__Greedy_Algorithm.dir/main.cpp.o: CMakeFiles/7__Greedy_Algorithm.dir/flags.make
-CMakeFiles/7__Greedy_Algorithm.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/leeseungmin/Documents/algorithm/7. Greedy Algorithm/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/7__Greedy_Algorithm.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/7__Greedy_Algorithm.dir/main.cpp.o -c "/Users/leeseungmin/Documents/algorithm/7. Greedy Algorithm/main.cpp"
+CMakeFiles/7__Greedy_Algorithm.dir/CuttingTree.cpp.o: CMakeFiles/7__Greedy_Algorithm.dir/flags.make
+CMakeFiles/7__Greedy_Algorithm.dir/CuttingTree.cpp.o: ../CuttingTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/leeseungmin/Documents/algorithm/7. Greedy Algorithm/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/7__Greedy_Algorithm.dir/CuttingTree.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/7__Greedy_Algorithm.dir/CuttingTree.cpp.o -c "/Users/leeseungmin/Documents/algorithm/7. Greedy Algorithm/CuttingTree.cpp"
 
-CMakeFiles/7__Greedy_Algorithm.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/7__Greedy_Algorithm.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/leeseungmin/Documents/algorithm/7. Greedy Algorithm/main.cpp" > CMakeFiles/7__Greedy_Algorithm.dir/main.cpp.i
+CMakeFiles/7__Greedy_Algorithm.dir/CuttingTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/7__Greedy_Algorithm.dir/CuttingTree.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/leeseungmin/Documents/algorithm/7. Greedy Algorithm/CuttingTree.cpp" > CMakeFiles/7__Greedy_Algorithm.dir/CuttingTree.cpp.i
 
-CMakeFiles/7__Greedy_Algorithm.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/7__Greedy_Algorithm.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/leeseungmin/Documents/algorithm/7. Greedy Algorithm/main.cpp" -o CMakeFiles/7__Greedy_Algorithm.dir/main.cpp.s
+CMakeFiles/7__Greedy_Algorithm.dir/CuttingTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/7__Greedy_Algorithm.dir/CuttingTree.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/leeseungmin/Documents/algorithm/7. Greedy Algorithm/CuttingTree.cpp" -o CMakeFiles/7__Greedy_Algorithm.dir/CuttingTree.cpp.s
 
 # Object files for target 7__Greedy_Algorithm
 7__Greedy_Algorithm_OBJECTS = \
-"CMakeFiles/7__Greedy_Algorithm.dir/main.cpp.o"
+"CMakeFiles/7__Greedy_Algorithm.dir/CuttingTree.cpp.o"
 
 # External object files for target 7__Greedy_Algorithm
 7__Greedy_Algorithm_EXTERNAL_OBJECTS =
 
-7__Greedy_Algorithm: CMakeFiles/7__Greedy_Algorithm.dir/main.cpp.o
+7__Greedy_Algorithm: CMakeFiles/7__Greedy_Algorithm.dir/CuttingTree.cpp.o
 7__Greedy_Algorithm: CMakeFiles/7__Greedy_Algorithm.dir/build.make
 7__Greedy_Algorithm: CMakeFiles/7__Greedy_Algorithm.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/leeseungmin/Documents/algorithm/7. Greedy Algorithm/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 7__Greedy_Algorithm"
