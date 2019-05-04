@@ -4,7 +4,6 @@
 
 //https://algospot.com/judge/problem/read/MATCHORDER
 
-////틀림
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -52,8 +51,9 @@ int main() {
 
     vector<Score> s;
 
-    vector <int> Russia;
-    vector <int> Korea;
+   vector <int> Russia;
+   vector <int> Korea;
+
     int size = 0;
 
     for (int i = 0; i < num; i++) {
@@ -69,13 +69,19 @@ int main() {
             cin >> temp;
             Korea.push_back(temp);
         }
+
         s.push_back(Score(Russia, Korea, size));
         s[i].check_how_many_win();
+
+        Russia.clear();
+        Korea.clear();
+
     }
 
     for (int i = 0; i < num; i++) {
         cout << s[i].result << endl;
     }
+
 
     return 0;
 }

@@ -5,6 +5,8 @@
 #include <iostream>
 #include <climits>
 
+//푸는중
+
 using namespace std;
 
 int main(){

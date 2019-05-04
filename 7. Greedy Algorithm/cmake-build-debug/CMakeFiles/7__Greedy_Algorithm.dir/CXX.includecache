@@ -6,8 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Documents/algorithm/7. Greedy Algorithm/CuttingTree.cpp
+/Users/leeseungmin/Documents/algorithm/7. Greedy Algorithm/OnlineBookStore.cpp
 iostream
+-
+vector
+-
+algorithm
 -
 climits
 -

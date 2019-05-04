@@ -2,7 +2,6 @@
 // Created by 이승민 on 2019-05-03.
 //
 
-// 틀림
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -15,9 +14,14 @@ using namespace std;
 class Book {
 private:
     int price;
+    int remain;
 public:
     vector <pair<int, int>> vec;
 
+    Book(){
+        this->price = 0;
+        this->remain = 0;
+    }
 
     int calculate_price();
 };
@@ -25,13 +29,35 @@ public:
 int Book::calculate_price() {
 
     for (int i = 0; i < vec.size(); ++i) {
+
         if(i == 0){
             price += vec[i].first;
         }
-        else{
-            price += vec[i].first - vec[i-1].second;
+        else {
+            if (vec[i - 1].second <= vec[i].first) {
+                int temp = 0;
+                temp = vec[i].first - vec[i-1].second;
+
+                if(remain != 0){
+                    if(temp > remain){
+                        price += temp - remain;
+                        remain = 0;
+                    }
+                    else{
+                        remain -= temp;
+                    }
+                }
+                else{
+                    price += temp;
+                }
+
+            }
+            else{
+                remain += vec[i-1].second - vec[i].first;
+            }
         }
     }
+
     return price;
 }
 
@@ -52,7 +78,7 @@ int main() {
         int store, book;
         cin >> book >> store;
 
-        min = MAX;
+//        min = MAX;
         vector <Book> v(store);
 
 
@@ -70,14 +96,16 @@ int main() {
             sort(v[i].vec.begin(), v[i].vec.end(), cmp);
 
             int result = v[i].calculate_price();
-            if (min > result) {
+
+            if(i == 0){
+                min = result;
+            }
+            else if (min > result) {
                 min = result;
             }
 
         }
+        cout << min << endl;
     }
-
-    cout<<min;
-
     return 0;
 }

@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/leeseungmin/Documents/algorithm/7. Greedy Algorithm"
+CMAKE_SOURCE_DIR = "/Users/leeseungmin/Documents/algorithm/5. DataStructure"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/leeseungmin/Documents/algorithm/7. Greedy Algorithm/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/leeseungmin/Documents/algorithm/5. DataStructure/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/leeseungmin/Documents/algorithm/7. Greedy Algorithm/cmake-build-debug/CMakeFiles" "/Users/leeseungmin/Documents/algorithm/7. Greedy Algorithm/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/leeseungmin/Documents/algorithm/5. DataStructure/cmake-build-debug/CMakeFiles" "/Users/leeseungmin/Documents/algorithm/5. DataStructure/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/leeseungmin/Documents/algorithm/7. Greedy Algorithm/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/leeseungmin/Documents/algorithm/5. DataStructure/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 7__Greedy_Algorithm
+# Target rules for targets named 5__DataStructure
 
 # Build rule for target.
-7__Greedy_Algorithm: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 7__Greedy_Algorithm
-.PHONY : 7__Greedy_Algorithm
+5__DataStructure: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 5__DataStructure
+.PHONY : 5__DataStructure
 
 # fast build rule for target.
-7__Greedy_Algorithm/fast:
-	$(MAKE) -f CMakeFiles/7__Greedy_Algorithm.dir/build.make CMakeFiles/7__Greedy_Algorithm.dir/build
-.PHONY : 7__Greedy_Algorithm/fast
+5__DataStructure/fast:
+	$(MAKE) -f CMakeFiles/5__DataStructure.dir/build.make CMakeFiles/5__DataStructure.dir/build
+.PHONY : 5__DataStructure/fast
 
-OnlineBookStore.o: OnlineBookStore.cpp.o
+main.o: main.cpp.o
 
-.PHONY : OnlineBookStore.o
+.PHONY : main.o
 
 # target to build an object file
-OnlineBookStore.cpp.o:
-	$(MAKE) -f CMakeFiles/7__Greedy_Algorithm.dir/build.make CMakeFiles/7__Greedy_Algorithm.dir/OnlineBookStore.cpp.o
-.PHONY : OnlineBookStore.cpp.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/5__DataStructure.dir/build.make CMakeFiles/5__DataStructure.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-OnlineBookStore.i: OnlineBookStore.cpp.i
+main.i: main.cpp.i
 
-.PHONY : OnlineBookStore.i
+.PHONY : main.i
 
 # target to preprocess a source file
-OnlineBookStore.cpp.i:
-	$(MAKE) -f CMakeFiles/7__Greedy_Algorithm.dir/build.make CMakeFiles/7__Greedy_Algorithm.dir/OnlineBookStore.cpp.i
-.PHONY : OnlineBookStore.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/5__DataStructure.dir/build.make CMakeFiles/5__DataStructure.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-OnlineBookStore.s: OnlineBookStore.cpp.s
+main.s: main.cpp.s
 
-.PHONY : OnlineBookStore.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-OnlineBookStore.cpp.s:
-	$(MAKE) -f CMakeFiles/7__Greedy_Algorithm.dir/build.make CMakeFiles/7__Greedy_Algorithm.dir/OnlineBookStore.cpp.s
-.PHONY : OnlineBookStore.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/5__DataStructure.dir/build.make CMakeFiles/5__DataStructure.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -158,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... 7__Greedy_Algorithm"
-	@echo "... OnlineBookStore.o"
-	@echo "... OnlineBookStore.i"
-	@echo "... OnlineBookStore.s"
+	@echo "... 5__DataStructure"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

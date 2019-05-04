@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="5__DataStructure" targetName="5__DataStructure" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1ee79797-5af5-4b6c-9cb1-a9e9a8f668c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SafeString.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Security_algorithm.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/5. DataStructure/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/5. DataStructure/v15/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/5. DataStructure/v15/ipch/AutoPCH/5c3ea66089de902/RAIN.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/5. DataStructure/v15/ipch/AutoPCH/63fe1a27a83120ff/SECURITY ALGORITHM.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/5. DataStructure/v15/ipch/AutoPCH/6d889ebd20f30e0f/SECURITY ALGORITHM.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/5. DataStructure/v15/ipch/AutoPCH/b05b4f4e7ca627cd/SAFE_STRING.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/5. DataStructure/v15/ipch/AutoPCH/dc189a8ceeebb632/RAIN.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5. DataStructure.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5. DataStructure.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5. DataStructure.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5. DataStructure.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/5. DataStructure.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/5. DataStructure.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/5. DataStructure.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/5. DataStructure.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/5. DataStructure.tlog/5. DataStructure.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/5. DataStructure.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/5. DataStructure.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/5. DataStructure.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/5. DataStructure.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/5. DataStructure.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/5. DataStructure.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/Rain.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/Security Algorithm.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/rain.obj.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/safe_string.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/safe_string.obj.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/vc141.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/vc141.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Rain.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security Algorithm.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/safe_string.cpp" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Security_algorithm.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+              <folding>
+                <element signature="e#80#99#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SafeString.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+              <folding>
+                <element signature="e#80#99#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/tclDecls.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="2433" column="59" selection-start-line="2433" selection-start-column="59" selection-end-line="2433" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Rain.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="34" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="34" />
+              <folding>
+                <element signature="e#80#99#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/SafeString.cpp" />
+        <option value="$PROJECT_DIR$/Security_algorithm.cpp" />
+        <option value="$PROJECT_DIR$/Rain.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/5. DataStructure.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="22" />
+    <option name="y" value="31" />
+    <option name="width" value="1400" />
+    <option name="height" value="771" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="5__DataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5. DataStructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="5__DataStructure" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="5__DataStructure" TARGET_NAME="5__DataStructure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="5__DataStructure" RUN_TARGET_NAME="5__DataStructure">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ee79797-5af5-4b6c-9cb1-a9e9a8f668c4" name="Default Changelist" comment="" />
+      <created>1556868786333</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556868786333</updated>
+      <workItem from="1556868787699" duration="1098000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1098000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="22" y="31" width="1400" height="771" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="CMake" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/tclDecls.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="2433" column="59" selection-start-line="2433" selection-start-column="59" selection-end-line="2433" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SafeString.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding>
+            <element signature="e#80#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Security_algorithm.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding>
+            <element signature="e#80#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rain.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="34" />
+          <folding>
+            <element signature="e#80#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

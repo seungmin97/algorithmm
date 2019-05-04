@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/7__Greedy_Algorithm.dir/CuttingTree.cpp.o"
+  "CMakeFiles/7__Greedy_Algorithm.dir/OnlineBookStore.cpp.o"
   "7__Greedy_Algorithm.pdb"
   "7__Greedy_Algorithm"
 )

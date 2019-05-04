@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/leeseungmin/Documents/algorithm/7. Greedy Algorithm/CuttingTree.cpp">
+		<Unit filename="/Users/leeseungmin/Documents/algorithm/7. Greedy Algorithm/OnlineBookStore.cpp">
 			<Option target="7__Greedy_Algorithm"/>
 		</Unit>
 		<Unit filename="/Users/leeseungmin/Documents/algorithm/7. Greedy Algorithm/CMakeLists.txt">
