@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/leeseungmin/Documents/algorithm/5. DataStructure/main.cpp" "/Users/leeseungmin/Documents/algorithm/5. DataStructure/cmake-build-debug/CMakeFiles/5__DataStructure.dir/main.cpp.o"
+  "/Users/leeseungmin/Desktop/algorithm/5. DataStructure/SafeString2.cpp" "/Users/leeseungmin/Desktop/algorithm/5. DataStructure/cmake-build-debug/CMakeFiles/5__DataStructure.dir/SafeString2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

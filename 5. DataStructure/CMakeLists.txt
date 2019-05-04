@@ -3,4 +3,4 @@ project(5__DataStructure)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(5__DataStructure Security_algorithm.cpp)
+add_executable(5__DataStructure SafeString2.cpp)

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/5__DataStructure.dir/main.cpp.o"
+  "CMakeFiles/5__DataStructure.dir/SafeString2.cpp.o"
   "5__DataStructure.pdb"
   "5__DataStructure"
 )

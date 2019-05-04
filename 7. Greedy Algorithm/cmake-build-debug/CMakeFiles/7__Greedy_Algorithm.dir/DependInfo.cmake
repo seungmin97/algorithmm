@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/leeseungmin/Documents/algorithm/7. Greedy Algorithm/OnlineBookStore.cpp" "/Users/leeseungmin/Documents/algorithm/7. Greedy Algorithm/cmake-build-debug/CMakeFiles/7__Greedy_Algorithm.dir/OnlineBookStore.cpp.o"
+  "/Users/leeseungmin/Desktop/algorithm/7. Greedy Algorithm/OnlineBookStore.cpp" "/Users/leeseungmin/Desktop/algorithm/7. Greedy Algorithm/cmake-build-debug/CMakeFiles/7__Greedy_Algorithm.dir/OnlineBookStore.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

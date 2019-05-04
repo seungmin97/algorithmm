@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/leeseungmin/Documents/algorithm/5. DataStructure"
+CMAKE_SOURCE_DIR = "/Users/leeseungmin/Desktop/algorithm/5. DataStructure"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/leeseungmin/Documents/algorithm/5. DataStructure/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/leeseungmin/Desktop/algorithm/5. DataStructure/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/leeseungmin/Documents/algorithm/5. DataStructure/cmake-build-debug/CMakeFiles" "/Users/leeseungmin/Documents/algorithm/5. DataStructure/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/leeseungmin/Desktop/algorithm/5. DataStructure/cmake-build-debug/CMakeFiles" "/Users/leeseungmin/Desktop/algorithm/5. DataStructure/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/leeseungmin/Documents/algorithm/5. DataStructure/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/leeseungmin/Desktop/algorithm/5. DataStructure/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ depend:
 	$(MAKE) -f CMakeFiles/5__DataStructure.dir/build.make CMakeFiles/5__DataStructure.dir/build
 .PHONY : 5__DataStructure/fast
 
-main.o: main.cpp.o
+SafeString2.o: SafeString2.cpp.o
 
-.PHONY : main.o
+.PHONY : SafeString2.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/5__DataStructure.dir/build.make CMakeFiles/5__DataStructure.dir/main.cpp.o
-.PHONY : main.cpp.o
+SafeString2.cpp.o:
+	$(MAKE) -f CMakeFiles/5__DataStructure.dir/build.make CMakeFiles/5__DataStructure.dir/SafeString2.cpp.o
+.PHONY : SafeString2.cpp.o
 
-main.i: main.cpp.i
+SafeString2.i: SafeString2.cpp.i
 
-.PHONY : main.i
+.PHONY : SafeString2.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/5__DataStructure.dir/build.make CMakeFiles/5__DataStructure.dir/main.cpp.i
-.PHONY : main.cpp.i
+SafeString2.cpp.i:
+	$(MAKE) -f CMakeFiles/5__DataStructure.dir/build.make CMakeFiles/5__DataStructure.dir/SafeString2.cpp.i
+.PHONY : SafeString2.cpp.i
 
-main.s: main.cpp.s
+SafeString2.s: SafeString2.cpp.s
 
-.PHONY : main.s
+.PHONY : SafeString2.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/5__DataStructure.dir/build.make CMakeFiles/5__DataStructure.dir/main.cpp.s
-.PHONY : main.cpp.s
+SafeString2.cpp.s:
+	$(MAKE) -f CMakeFiles/5__DataStructure.dir/build.make CMakeFiles/5__DataStructure.dir/SafeString2.cpp.s
+.PHONY : SafeString2.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 5__DataStructure"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... SafeString2.o"
+	@echo "... SafeString2.i"
+	@echo "... SafeString2.s"
 .PHONY : help
 
 

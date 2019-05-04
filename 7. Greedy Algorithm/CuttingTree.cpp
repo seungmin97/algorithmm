@@ -9,20 +9,44 @@
 
 using namespace std;
 
-int main(){
+int l, k, c;
+int *position;
+int count;
 
-    int l, k, c;
+bool check(int j){
+    for (int i = 0; i < k; ++i) {
+        if(j == position[i]) {
+            count += 1;
+            return true;
+        }
+    }
+    return false;
+}
+
+void print(){
+
+}
+
+int main(){
 
     int max = INT_MAX;
     cin >> l >> k >> c;
 
-    int *position = new int[k];
+    position = new int[k];
     for (int i = 0; i < k; ++i) {
         cin>>position[i];
     }
-
-    for (int j = 0; j < c; ++j) {
-
+    count = 0;
+    int length = 0;
+    for (int j = 0; j < l; ++j) {
+        if(check(j)){
+            if(j < (l / 2)){
+                length = l - j;
+            }
+            else{
+                length = j;
+            }
+        }
     }
 
     return 0;

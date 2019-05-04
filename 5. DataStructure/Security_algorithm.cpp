@@ -2,8 +2,6 @@
 // Created by 이승민 on 2019-05-03.
 //
 
-//반대로 바꿔야함
-
 //https://www.acmicpc.net/problem/9322
 
 #include <iostream>

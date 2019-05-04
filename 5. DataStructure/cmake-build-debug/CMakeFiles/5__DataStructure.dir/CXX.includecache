@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Documents/algorithm/7. Greedy Algorithm/OnlineBookStore.cpp
+/Users/leeseungmin/Desktop/algorithm/5. DataStructure/SafeString2.cpp
 iostream
 -
-vector
+stack
+-
+string
 -
 algorithm
--
-climits
 -
 

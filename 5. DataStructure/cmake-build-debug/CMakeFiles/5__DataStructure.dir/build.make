@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/leeseungmin/Documents/algorithm/5. DataStructure"
+CMAKE_SOURCE_DIR = "/Users/leeseungmin/Desktop/algorithm/5. DataStructure"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/leeseungmin/Documents/algorithm/5. DataStructure/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/leeseungmin/Desktop/algorithm/5. DataStructure/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/5__DataStructure.dir/depend.make
@@ -57,30 +57,30 @@ include CMakeFiles/5__DataStructure.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/5__DataStructure.dir/flags.make
 
-CMakeFiles/5__DataStructure.dir/main.cpp.o: CMakeFiles/5__DataStructure.dir/flags.make
-CMakeFiles/5__DataStructure.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/leeseungmin/Documents/algorithm/5. DataStructure/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/5__DataStructure.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/5__DataStructure.dir/main.cpp.o -c "/Users/leeseungmin/Documents/algorithm/5. DataStructure/main.cpp"
+CMakeFiles/5__DataStructure.dir/SafeString2.cpp.o: CMakeFiles/5__DataStructure.dir/flags.make
+CMakeFiles/5__DataStructure.dir/SafeString2.cpp.o: ../SafeString2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/leeseungmin/Desktop/algorithm/5. DataStructure/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/5__DataStructure.dir/SafeString2.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/5__DataStructure.dir/SafeString2.cpp.o -c "/Users/leeseungmin/Desktop/algorithm/5. DataStructure/SafeString2.cpp"
 
-CMakeFiles/5__DataStructure.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/5__DataStructure.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/leeseungmin/Documents/algorithm/5. DataStructure/main.cpp" > CMakeFiles/5__DataStructure.dir/main.cpp.i
+CMakeFiles/5__DataStructure.dir/SafeString2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/5__DataStructure.dir/SafeString2.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/leeseungmin/Desktop/algorithm/5. DataStructure/SafeString2.cpp" > CMakeFiles/5__DataStructure.dir/SafeString2.cpp.i
 
-CMakeFiles/5__DataStructure.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/5__DataStructure.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/leeseungmin/Documents/algorithm/5. DataStructure/main.cpp" -o CMakeFiles/5__DataStructure.dir/main.cpp.s
+CMakeFiles/5__DataStructure.dir/SafeString2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/5__DataStructure.dir/SafeString2.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/leeseungmin/Desktop/algorithm/5. DataStructure/SafeString2.cpp" -o CMakeFiles/5__DataStructure.dir/SafeString2.cpp.s
 
 # Object files for target 5__DataStructure
 5__DataStructure_OBJECTS = \
-"CMakeFiles/5__DataStructure.dir/main.cpp.o"
+"CMakeFiles/5__DataStructure.dir/SafeString2.cpp.o"
 
 # External object files for target 5__DataStructure
 5__DataStructure_EXTERNAL_OBJECTS =
 
-5__DataStructure: CMakeFiles/5__DataStructure.dir/main.cpp.o
+5__DataStructure: CMakeFiles/5__DataStructure.dir/SafeString2.cpp.o
 5__DataStructure: CMakeFiles/5__DataStructure.dir/build.make
 5__DataStructure: CMakeFiles/5__DataStructure.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/leeseungmin/Documents/algorithm/5. DataStructure/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 5__DataStructure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/leeseungmin/Desktop/algorithm/5. DataStructure/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 5__DataStructure"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/5__DataStructure.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -93,6 +93,6 @@ CMakeFiles/5__DataStructure.dir/clean:
 .PHONY : CMakeFiles/5__DataStructure.dir/clean
 
 CMakeFiles/5__DataStructure.dir/depend:
-	cd "/Users/leeseungmin/Documents/algorithm/5. DataStructure/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/leeseungmin/Documents/algorithm/5. DataStructure" "/Users/leeseungmin/Documents/algorithm/5. DataStructure" "/Users/leeseungmin/Documents/algorithm/5. DataStructure/cmake-build-debug" "/Users/leeseungmin/Documents/algorithm/5. DataStructure/cmake-build-debug" "/Users/leeseungmin/Documents/algorithm/5. DataStructure/cmake-build-debug/CMakeFiles/5__DataStructure.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/leeseungmin/Desktop/algorithm/5. DataStructure/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/leeseungmin/Desktop/algorithm/5. DataStructure" "/Users/leeseungmin/Desktop/algorithm/5. DataStructure" "/Users/leeseungmin/Desktop/algorithm/5. DataStructure/cmake-build-debug" "/Users/leeseungmin/Desktop/algorithm/5. DataStructure/cmake-build-debug" "/Users/leeseungmin/Desktop/algorithm/5. DataStructure/cmake-build-debug/CMakeFiles/5__DataStructure.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/5__DataStructure.dir/depend
 
