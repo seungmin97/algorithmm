@@ -4,6 +4,7 @@
 
 //https://www.acmicpc.net/problem/2094
 
+//문제 다시 생각하기
 #include <iostream>
 #include <algorithm>
 #include <vector>

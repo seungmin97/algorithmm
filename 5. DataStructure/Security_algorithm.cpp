@@ -40,7 +40,7 @@ void security::check() {
     for (int j = 0; j < size; j++) {
         for (int k = 0; k <size; k++) {
             if (v1.at(j).compare(v2.at(k)) == 0) {
-                v1_index.push_back(make_pair(k, j));
+                v1_index.push_back(make_pair(j, k));
             }
         }
     }
