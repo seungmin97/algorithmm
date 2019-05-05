@@ -27,8 +27,10 @@ int main() {
     while(1){
        count = 0;
 
-       stack<char> s;
+        stack<char> s;
         cin >> str;
+
+        //str에 -가 있는 경우
         if(str.find('-') != -1)
         {
             print();
@@ -36,22 +38,19 @@ int main() {
         }
         else{
             for (int i = 0; i < str.length(); ++i) {
-                //첫번째 값
-                if(i == 0){
-                    if(str[i] == '}'){
-                        count += 1;
-                        s.push('{');
-                    }
-                    else{
+                //첫번째 값은 무조건 {가 와야 하기 때문에 아닌 경우 count갯수 증가시키고 stack에 { push
+
+                if(s.size() == 0){
+                    if(str[i] == '{'){
                         s.push(str[i]);
                     }
-                }
-                //나머지 값
-                else{
-                    if(str[i] == '{'){
-                        s.push(('{'));
-                    }
                     else{
+                        s.push('{');
+                        count += 1;
+                    }
+                }
+                else{
+                    if(str[i] == '}'){
                         if(s.top() == '{'){
                             s.pop();
                         }
@@ -59,10 +58,18 @@ int main() {
                             s.push('{');
                             count += 1;
                         }
+
                     }
+                    else{
+                        s.push(str[i]);
+                    }
+
                 }
             }
         }
+        //{{{}{}
+        //stack에 남아있는것은 다 {이기 때문에 그거의 반은 바껴야 함
+        //그래서 size의 반을 바꿔야 함
         count += s.size() / 2;
         v.push_back(count);
     }
