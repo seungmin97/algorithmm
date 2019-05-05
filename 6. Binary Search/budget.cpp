@@ -1,3 +1,7 @@
+//
+// Created by 이승민 on 2019-05-05.
+//
+
 //https://www.acmicpc.net/problem/2512
 
 #include <iostream>
@@ -8,51 +12,51 @@ using namespace std;
 
 int main() {
 
-	int num;
-	cin >> num;
+    int num;
+    cin >> num;
 
-	vector <int> v(num);
+    vector <int> v(num);
 
-	int max = 0;
-	for (int i = 0; i < num; i++) {
-		cin >> v[i];
+    int max = 0;
+    for (int i = 0; i < num; i++) {
+        cin >> v[i];
 
-		if (v[i] > max) {
-			max = v[i];
-		}
-	}
-	
-	int budget;
-	cin >> budget;
+        if (v[i] > max) {
+            max = v[i];
+        }
+    }
 
-	int left = 0;
-	int right = max;
-	int result = 0;
+    int budget;
+    cin >> budget;
 
-	while (left <= right) {
-		int mid = (left + right) / 2;
-		long long sum = 0;
+    int left = 0;
+    int right = max;
+    int result = 0;
 
-		for (int i = 0; i < num; i++) {
-			if (v[i] < mid) {
-				sum += v[i];
-			}
-			else {
-				sum += mid;
-			}
-		}
+    while (left <= right) {
+        int mid = (left + right) / 2;
+        long long sum = 0;
 
-		if (sum <= budget) {
-			left = mid + 1;
-			result = mid;
-		}
-		else {
-			right = mid - 1;
-		}
+        for (int i = 0; i < num; i++) {
+            if (v[i] < mid) {
+                sum += v[i];
+            }
+            else {
+                sum += mid;
+            }
+        }
 
-	}
+        if (sum <= budget) {
+            left = mid + 1;
+            result = mid;
+        }
+        else {
+            right = mid - 1;
+        }
 
-	cout << result<<endl;
+    }
 
-	return 0;
+    cout << result<<endl;
+
+    return 0;
 }

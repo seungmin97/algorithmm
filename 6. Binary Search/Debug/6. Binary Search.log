@@ -1,6 +1,0 @@
-﻿  LanWire.cpp
-c:\users\sens\desktop\algorithm\6. binary search\lanwire.cpp(12): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-c:\users\sens\desktop\algorithm\6. binary search\lanwire.cpp(14): warning C4244: '+=': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\sens\desktop\algorithm\6. binary search\lanwire.cpp(41): warning C4244: '초기화 중': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\sens\desktop\algorithm\6. binary search\lanwire.cpp(45): warning C4244: '=': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  6. Binary Search.vcxproj -> C:\Users\sens\Desktop\algorithm\6. Binary Search\Debug\6. Binary Search.exe
