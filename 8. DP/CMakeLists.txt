@@ -3,4 +3,4 @@ project(8__DP)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(8__DP main.cpp)
+add_executable(8__DP Coin2.cpp)

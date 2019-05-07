@@ -57,27 +57,27 @@ include CMakeFiles/8__DP.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/8__DP.dir/flags.make
 
-CMakeFiles/8__DP.dir/main.cpp.o: CMakeFiles/8__DP.dir/flags.make
-CMakeFiles/8__DP.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/leeseungmin/Desktop/algorithm/8. DP/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/8__DP.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/8__DP.dir/main.cpp.o -c "/Users/leeseungmin/Desktop/algorithm/8. DP/main.cpp"
+CMakeFiles/8__DP.dir/Coin2.cpp.o: CMakeFiles/8__DP.dir/flags.make
+CMakeFiles/8__DP.dir/Coin2.cpp.o: ../Coin2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/leeseungmin/Desktop/algorithm/8. DP/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/8__DP.dir/Coin2.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/8__DP.dir/Coin2.cpp.o -c "/Users/leeseungmin/Desktop/algorithm/8. DP/Coin2.cpp"
 
-CMakeFiles/8__DP.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/8__DP.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/leeseungmin/Desktop/algorithm/8. DP/main.cpp" > CMakeFiles/8__DP.dir/main.cpp.i
+CMakeFiles/8__DP.dir/Coin2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/8__DP.dir/Coin2.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/leeseungmin/Desktop/algorithm/8. DP/Coin2.cpp" > CMakeFiles/8__DP.dir/Coin2.cpp.i
 
-CMakeFiles/8__DP.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/8__DP.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/leeseungmin/Desktop/algorithm/8. DP/main.cpp" -o CMakeFiles/8__DP.dir/main.cpp.s
+CMakeFiles/8__DP.dir/Coin2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/8__DP.dir/Coin2.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/leeseungmin/Desktop/algorithm/8. DP/Coin2.cpp" -o CMakeFiles/8__DP.dir/Coin2.cpp.s
 
 # Object files for target 8__DP
 8__DP_OBJECTS = \
-"CMakeFiles/8__DP.dir/main.cpp.o"
+"CMakeFiles/8__DP.dir/Coin2.cpp.o"
 
 # External object files for target 8__DP
 8__DP_EXTERNAL_OBJECTS =
 
-8__DP: CMakeFiles/8__DP.dir/main.cpp.o
+8__DP: CMakeFiles/8__DP.dir/Coin2.cpp.o
 8__DP: CMakeFiles/8__DP.dir/build.make
 8__DP: CMakeFiles/8__DP.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/leeseungmin/Desktop/algorithm/8. DP/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 8__DP"

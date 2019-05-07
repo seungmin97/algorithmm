@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/leeseungmin/Desktop/algorithm/7. Greedy Algorithm/OnlineBookStore.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+climits
+-
+

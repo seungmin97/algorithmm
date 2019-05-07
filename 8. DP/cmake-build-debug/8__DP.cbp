@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/leeseungmin/Desktop/algorithm/8. DP/main.cpp">
+		<Unit filename="/Users/leeseungmin/Desktop/algorithm/8. DP/Coin2.cpp">
 			<Option target="8__DP"/>
 		</Unit>
 		<Unit filename="/Users/leeseungmin/Desktop/algorithm/8. DP/CMakeLists.txt">

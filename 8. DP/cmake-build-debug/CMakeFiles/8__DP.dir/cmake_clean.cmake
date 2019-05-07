@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/8__DP.dir/main.cpp.o"
+  "CMakeFiles/8__DP.dir/Coin2.cpp.o"
   "8__DP.pdb"
   "8__DP"
 )
