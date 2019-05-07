@@ -123,32 +123,32 @@ depend:
 	$(MAKE) -f CMakeFiles/8__DP.dir/build.make CMakeFiles/8__DP.dir/build
 .PHONY : 8__DP/fast
 
-Coin2.o: Coin2.cpp.o
+Resignation.o: Resignation.cpp.o
 
-.PHONY : Coin2.o
+.PHONY : Resignation.o
 
 # target to build an object file
-Coin2.cpp.o:
-	$(MAKE) -f CMakeFiles/8__DP.dir/build.make CMakeFiles/8__DP.dir/Coin2.cpp.o
-.PHONY : Coin2.cpp.o
+Resignation.cpp.o:
+	$(MAKE) -f CMakeFiles/8__DP.dir/build.make CMakeFiles/8__DP.dir/Resignation.cpp.o
+.PHONY : Resignation.cpp.o
 
-Coin2.i: Coin2.cpp.i
+Resignation.i: Resignation.cpp.i
 
-.PHONY : Coin2.i
+.PHONY : Resignation.i
 
 # target to preprocess a source file
-Coin2.cpp.i:
-	$(MAKE) -f CMakeFiles/8__DP.dir/build.make CMakeFiles/8__DP.dir/Coin2.cpp.i
-.PHONY : Coin2.cpp.i
+Resignation.cpp.i:
+	$(MAKE) -f CMakeFiles/8__DP.dir/build.make CMakeFiles/8__DP.dir/Resignation.cpp.i
+.PHONY : Resignation.cpp.i
 
-Coin2.s: Coin2.cpp.s
+Resignation.s: Resignation.cpp.s
 
-.PHONY : Coin2.s
+.PHONY : Resignation.s
 
 # target to generate assembly for a file
-Coin2.cpp.s:
-	$(MAKE) -f CMakeFiles/8__DP.dir/build.make CMakeFiles/8__DP.dir/Coin2.cpp.s
-.PHONY : Coin2.cpp.s
+Resignation.cpp.s:
+	$(MAKE) -f CMakeFiles/8__DP.dir/build.make CMakeFiles/8__DP.dir/Resignation.cpp.s
+.PHONY : Resignation.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 8__DP"
-	@echo "... Coin2.o"
-	@echo "... Coin2.i"
-	@echo "... Coin2.s"
+	@echo "... Resignation.o"
+	@echo "... Resignation.i"
+	@echo "... Resignation.s"
 .PHONY : help
 
 

@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/algorithm/8. DP/Coin2.cpp
+/Users/leeseungmin/Desktop/algorithm/8. DP/Resignation.cpp
 iostream
 -
-algorithm
--
-climits
+vector
 -
 

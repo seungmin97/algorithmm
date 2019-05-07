@@ -6,7 +6,6 @@
 
 #include <iostream>
 #include <algorithm>
-#include <climits>
 
 #define Max 10001
 
@@ -36,7 +35,7 @@ int main(){
         for (int i = coin[l]; i <= k; ++i) {
             temp[i] = min(temp[i], temp[i - coin[l]] + 1);
         }
-     }
+    }
 
 
     if(temp[k] != Max) {
