@@ -2,7 +2,9 @@
 // Created by 이승민 on 2019-05-07.
 //
 
-//입력예제 4 이해 못함
+//https://www.acmicpc.net/problem/14501
+
+//모르겠다ㅠ
 
 #include <iostream>
 #include <vector>
@@ -26,13 +28,13 @@ int main(){
     }
     result[num] = 0;
 
-   int max_ = result[0];
-    for (int i = 0; i < num; ++i) {
-        if (i + v[i].first <= num) {
-            result[i + v[i].first] = max(result[i + v[i].first], result[i] + v[i].second);
-        }
+    int max_ = 0;
+    for (int i = num - 1; i >= 0 ; --i) {
+        int index = i + v[i].first;
+
     }
-    for (int i = 0; i <= num; ++i) {
+
+    for (int i = 1; i <= num; ++i) {
         max_ = max(max_, result[i]);
     }
 

@@ -123,32 +123,32 @@ depend:
 	$(MAKE) -f CMakeFiles/8__DP.dir/build.make CMakeFiles/8__DP.dir/build
 .PHONY : 8__DP/fast
 
-main.o: main.cpp.o
+Downhill.o: Downhill.cpp.o
 
-.PHONY : main.o
+.PHONY : Downhill.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/8__DP.dir/build.make CMakeFiles/8__DP.dir/main.cpp.o
-.PHONY : main.cpp.o
+Downhill.cpp.o:
+	$(MAKE) -f CMakeFiles/8__DP.dir/build.make CMakeFiles/8__DP.dir/Downhill.cpp.o
+.PHONY : Downhill.cpp.o
 
-main.i: main.cpp.i
+Downhill.i: Downhill.cpp.i
 
-.PHONY : main.i
+.PHONY : Downhill.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/8__DP.dir/build.make CMakeFiles/8__DP.dir/main.cpp.i
-.PHONY : main.cpp.i
+Downhill.cpp.i:
+	$(MAKE) -f CMakeFiles/8__DP.dir/build.make CMakeFiles/8__DP.dir/Downhill.cpp.i
+.PHONY : Downhill.cpp.i
 
-main.s: main.cpp.s
+Downhill.s: Downhill.cpp.s
 
-.PHONY : main.s
+.PHONY : Downhill.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/8__DP.dir/build.make CMakeFiles/8__DP.dir/main.cpp.s
-.PHONY : main.cpp.s
+Downhill.cpp.s:
+	$(MAKE) -f CMakeFiles/8__DP.dir/build.make CMakeFiles/8__DP.dir/Downhill.cpp.s
+.PHONY : Downhill.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 8__DP"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Downhill.o"
+	@echo "... Downhill.i"
+	@echo "... Downhill.s"
 .PHONY : help
 
 
