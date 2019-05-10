@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/algorithm/8. DP/Downhill.cpp
+/Users/leeseungmin/Desktop/algorithm/8. DP/Robot.cpp
 iostream
 -
-string.h
+algorithm
 -
 

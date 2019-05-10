@@ -123,32 +123,32 @@ depend:
 	$(MAKE) -f CMakeFiles/8__DP.dir/build.make CMakeFiles/8__DP.dir/build
 .PHONY : 8__DP/fast
 
-Downhill.o: Downhill.cpp.o
+Robot.o: Robot.cpp.o
 
-.PHONY : Downhill.o
+.PHONY : Robot.o
 
 # target to build an object file
-Downhill.cpp.o:
-	$(MAKE) -f CMakeFiles/8__DP.dir/build.make CMakeFiles/8__DP.dir/Downhill.cpp.o
-.PHONY : Downhill.cpp.o
+Robot.cpp.o:
+	$(MAKE) -f CMakeFiles/8__DP.dir/build.make CMakeFiles/8__DP.dir/Robot.cpp.o
+.PHONY : Robot.cpp.o
 
-Downhill.i: Downhill.cpp.i
+Robot.i: Robot.cpp.i
 
-.PHONY : Downhill.i
+.PHONY : Robot.i
 
 # target to preprocess a source file
-Downhill.cpp.i:
-	$(MAKE) -f CMakeFiles/8__DP.dir/build.make CMakeFiles/8__DP.dir/Downhill.cpp.i
-.PHONY : Downhill.cpp.i
+Robot.cpp.i:
+	$(MAKE) -f CMakeFiles/8__DP.dir/build.make CMakeFiles/8__DP.dir/Robot.cpp.i
+.PHONY : Robot.cpp.i
 
-Downhill.s: Downhill.cpp.s
+Robot.s: Robot.cpp.s
 
-.PHONY : Downhill.s
+.PHONY : Robot.s
 
 # target to generate assembly for a file
-Downhill.cpp.s:
-	$(MAKE) -f CMakeFiles/8__DP.dir/build.make CMakeFiles/8__DP.dir/Downhill.cpp.s
-.PHONY : Downhill.cpp.s
+Robot.cpp.s:
+	$(MAKE) -f CMakeFiles/8__DP.dir/build.make CMakeFiles/8__DP.dir/Robot.cpp.s
+.PHONY : Robot.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 8__DP"
-	@echo "... Downhill.o"
-	@echo "... Downhill.i"
-	@echo "... Downhill.s"
+	@echo "... Robot.o"
+	@echo "... Robot.i"
+	@echo "... Robot.s"
 .PHONY : help
 
 

@@ -4,26 +4,21 @@
 
 //https://www.acmicpc.net/problem/1520
 
+//dp를 어떻게??
 #include <iostream>
-#include <string.h>
-int map[501][501];
-int visited[501][501];
-int dp[501][501];
 
 using namespace std;
 
 int M, N;
 int result = 0;
 
-int move(int x, int y){
-
-
-    if((x == M - 1) && (y == N - 1)){
-        return 1;
-    }
-
+void move(int **map, int x, int y, int count){
     int dx[4] = {-1, 0, +1, 0};
     int dy[4] = {0, -1, 0, 1};
+
+    if(count == M + N - 2){
+        result += 1;
+    }
 
     for (int k = 0; k < 4; ++k) {
         int x_ = x + dx[k];
@@ -32,18 +27,12 @@ int move(int x, int y){
         if (x_ < 0 || x_ >= M || y_ < 0 || y_ >= N) {
             continue;
         }
-        else if (map[x][y] <= map[x_][y_]) {
-            continue;
-        }
-        else if(visited[x_][y_] == -1){
+        else if(map[x][y] <= map[x_][y_]){
             continue;
         }
 
+        move(map, x_, y_, count + 1);
 
-         visited[x_][y_] == 0;
-         dp[x_][y_] += move(x_, y_);
-
-        }
     }
 }
 
@@ -51,19 +40,20 @@ int main(){
 
     cin >> M >> N;
 
-  for (int i = 0; i < M; ++i) {
+    int **map = new int*[M];
+    for (int i = 0; i < M; ++i) {
+        map[i] = new int[N];
+    }
+
+    for (int i = 0; i < M; ++i) {
         for (int j = 0; j < N; ++j) {
             cin >> map[i][j];
         }
     }
 
-    for (int i = 0; i < M; ++i) {
-        memset(visited[i], -1, sizeof(int) * N);
-    }
+    move(map, 0, 0, 0);
 
-    move(0, 0);
-
-    cout << dp[M-1][N-1];
+    cout << result;
 
     return 0;
 }
