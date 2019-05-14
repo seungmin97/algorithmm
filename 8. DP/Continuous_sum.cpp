@@ -20,7 +20,6 @@ int main(){
         cin >> num_array[i];
         result[i] = num_array[i];
     }
-    
 
     for (int i = 1; i < num; ++i) {
         result[i] = max(result[i], result[i - 1] + num_array[i]);
