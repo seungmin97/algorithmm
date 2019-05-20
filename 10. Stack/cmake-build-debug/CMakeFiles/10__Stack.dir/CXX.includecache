@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/leeseungmin/Desktop/algorithm/10. Stack/Bracket.cpp
+iostream
+-
+string
+-
+stack
+-
+vector
+-
+

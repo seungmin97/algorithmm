@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="9__Graph_Theory" targetName="9__Graph_Theory" />
+      <config projectName="10__Stack" targetName="10__Stack" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d47892e-b8ad-432c-a095-af767a727350" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Friend.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Friend.cpp" afterDir="false" />
+    <list default="true" id="35923794-0b93-4e92-8e45-1b6b7fc846b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Bracket.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9. Graph-Theory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../9. Graph-Theory/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9. Graph-Theory/Friend.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../9. Graph-Theory/Friend.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9. Graph-Theory/cmake-build-debug/CMakeFiles/9__Graph_Theory.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../9. Graph-Theory/cmake-build-debug/CMakeFiles/9__Graph_Theory.dir/depend.make" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,19 +34,7 @@
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Friend.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-              <folding>
-                <element signature="e#40#59#0" expanded="true" />
-              </folding>
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -53,27 +44,16 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Island.cpp">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bracket.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="46" column="6" lean-forward="true" selection-start-line="46" selection-start-column="6" selection-end-line="49" selection-end-column="9" />
+            <state relative-caret-position="435">
+              <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+              <folding>
+                <element signature="e#40#59#0" expanded="true" />
+              </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hide_and_Seek.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-530">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hide_and_Seek2.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -85,17 +65,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/Friend.cpp" />
+        <option value="$PROJECT_DIR$/Bracket.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
-        <option value="$PROJECT_DIR$/.idea/9. Graph-Theory.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
       </list>
     </option>
   </component>
@@ -114,8 +91,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="9__Graph_Theory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="9. Graph-Theory" type="462c0819:PsiDirectoryNode" />
+              <item name="10__Stack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10. Stack" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -124,8 +101,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -142,7 +121,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="9__Graph_Theory" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="9__Graph_Theory" TARGET_NAME="9__Graph_Theory" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="9__Graph_Theory" RUN_TARGET_NAME="9__Graph_Theory">
+    <configuration name="10__Stack" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="10__Stack" TARGET_NAME="10__Stack" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="10__Stack" RUN_TARGET_NAME="10__Stack">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -153,17 +132,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4d47892e-b8ad-432c-a095-af767a727350" name="Default Changelist" comment="" />
-      <created>1557901793356</created>
+      <changelist id="35923794-0b93-4e92-8e45-1b6b7fc846b0" name="Default Changelist" comment="" />
+      <created>1558310742008</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1557901793356</updated>
-      <workItem from="1557901796190" duration="2467000" />
+      <updated>1558310742008</updated>
+      <workItem from="1558310744933" duration="2683000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2467000" />
+    <option name="totallyTimeSpent" value="2683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -198,83 +177,28 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Friend.cpp</url>
+          <url>file://$PROJECT_DIR$/Bracket.cpp</url>
           <line>51</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="CMakeRunConfiguration">
-        <watch expression="map[i][j]" language="ObjectiveC" />
-        <watch expression="visited[j]" language="ObjectiveC" />
-        <watch expression="result[i]" language="ObjectiveC" />
-      </configuration>
-    </watches-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="watch">
-      <expression>
-        <expression-string>num</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>result[i]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>visited[j]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>map[i][j]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../8. Graph-Theory/Hide_and_Seek.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="9" lean-forward="true" selection-end-line="72" selection-end-column="1" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hide_and_Seek2.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hide_and_Seek.cpp">
+    <entry file="file://$PROJECT_DIR$/Bracket.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-530">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Island.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="6" lean-forward="true" selection-start-line="46" selection-start-column="6" selection-end-line="49" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Friend.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        <state relative-caret-position="435">
+          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
           <folding>
             <element signature="e#40#59#0" expanded="true" />
           </folding>

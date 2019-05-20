@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/leeseungmin/Desktop/algorithm/9. Graph-Theory/Friend.cpp
+iostream
+-
+algorithm
+-
+string.h
+-
+
