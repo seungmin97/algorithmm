@@ -123,32 +123,32 @@ depend:
 	$(MAKE) -f CMakeFiles/10__Stack.dir/build.make CMakeFiles/10__Stack.dir/build
 .PHONY : 10__Stack/fast
 
-Bracket.o: Bracket.cpp.o
+Building.o: Building.cpp.o
 
-.PHONY : Bracket.o
+.PHONY : Building.o
 
 # target to build an object file
-Bracket.cpp.o:
-	$(MAKE) -f CMakeFiles/10__Stack.dir/build.make CMakeFiles/10__Stack.dir/Bracket.cpp.o
-.PHONY : Bracket.cpp.o
+Building.cpp.o:
+	$(MAKE) -f CMakeFiles/10__Stack.dir/build.make CMakeFiles/10__Stack.dir/Building.cpp.o
+.PHONY : Building.cpp.o
 
-Bracket.i: Bracket.cpp.i
+Building.i: Building.cpp.i
 
-.PHONY : Bracket.i
+.PHONY : Building.i
 
 # target to preprocess a source file
-Bracket.cpp.i:
-	$(MAKE) -f CMakeFiles/10__Stack.dir/build.make CMakeFiles/10__Stack.dir/Bracket.cpp.i
-.PHONY : Bracket.cpp.i
+Building.cpp.i:
+	$(MAKE) -f CMakeFiles/10__Stack.dir/build.make CMakeFiles/10__Stack.dir/Building.cpp.i
+.PHONY : Building.cpp.i
 
-Bracket.s: Bracket.cpp.s
+Building.s: Building.cpp.s
 
-.PHONY : Bracket.s
+.PHONY : Building.s
 
 # target to generate assembly for a file
-Bracket.cpp.s:
-	$(MAKE) -f CMakeFiles/10__Stack.dir/build.make CMakeFiles/10__Stack.dir/Bracket.cpp.s
-.PHONY : Bracket.cpp.s
+Building.cpp.s:
+	$(MAKE) -f CMakeFiles/10__Stack.dir/build.make CMakeFiles/10__Stack.dir/Building.cpp.s
+.PHONY : Building.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 10__Stack"
-	@echo "... Bracket.o"
-	@echo "... Bracket.i"
-	@echo "... Bracket.s"
+	@echo "... Building.o"
+	@echo "... Building.i"
+	@echo "... Building.s"
 .PHONY : help
 
 

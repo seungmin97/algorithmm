@@ -6,12 +6,8 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/algorithm/10. Stack/Bracket.cpp
+/Users/leeseungmin/Desktop/algorithm/10. Stack/Building.cpp
 iostream
--
-string
--
-stack
 -
 vector
 -

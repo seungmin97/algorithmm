@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/10__Stack.dir/Bracket.cpp.o"
+  "CMakeFiles/10__Stack.dir/Building.cpp.o"
   "10__Stack.pdb"
   "10__Stack"
 )

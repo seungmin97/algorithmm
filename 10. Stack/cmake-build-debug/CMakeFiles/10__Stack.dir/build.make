@@ -57,27 +57,27 @@ include CMakeFiles/10__Stack.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/10__Stack.dir/flags.make
 
-CMakeFiles/10__Stack.dir/Bracket.cpp.o: CMakeFiles/10__Stack.dir/flags.make
-CMakeFiles/10__Stack.dir/Bracket.cpp.o: ../Bracket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/leeseungmin/Desktop/algorithm/10. Stack/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/10__Stack.dir/Bracket.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/10__Stack.dir/Bracket.cpp.o -c "/Users/leeseungmin/Desktop/algorithm/10. Stack/Bracket.cpp"
+CMakeFiles/10__Stack.dir/Building.cpp.o: CMakeFiles/10__Stack.dir/flags.make
+CMakeFiles/10__Stack.dir/Building.cpp.o: ../Building.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/leeseungmin/Desktop/algorithm/10. Stack/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/10__Stack.dir/Building.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/10__Stack.dir/Building.cpp.o -c "/Users/leeseungmin/Desktop/algorithm/10. Stack/Building.cpp"
 
-CMakeFiles/10__Stack.dir/Bracket.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/10__Stack.dir/Bracket.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/leeseungmin/Desktop/algorithm/10. Stack/Bracket.cpp" > CMakeFiles/10__Stack.dir/Bracket.cpp.i
+CMakeFiles/10__Stack.dir/Building.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/10__Stack.dir/Building.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/leeseungmin/Desktop/algorithm/10. Stack/Building.cpp" > CMakeFiles/10__Stack.dir/Building.cpp.i
 
-CMakeFiles/10__Stack.dir/Bracket.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/10__Stack.dir/Bracket.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/leeseungmin/Desktop/algorithm/10. Stack/Bracket.cpp" -o CMakeFiles/10__Stack.dir/Bracket.cpp.s
+CMakeFiles/10__Stack.dir/Building.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/10__Stack.dir/Building.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/leeseungmin/Desktop/algorithm/10. Stack/Building.cpp" -o CMakeFiles/10__Stack.dir/Building.cpp.s
 
 # Object files for target 10__Stack
 10__Stack_OBJECTS = \
-"CMakeFiles/10__Stack.dir/Bracket.cpp.o"
+"CMakeFiles/10__Stack.dir/Building.cpp.o"
 
 # External object files for target 10__Stack
 10__Stack_EXTERNAL_OBJECTS =
 
-10__Stack: CMakeFiles/10__Stack.dir/Bracket.cpp.o
+10__Stack: CMakeFiles/10__Stack.dir/Building.cpp.o
 10__Stack: CMakeFiles/10__Stack.dir/build.make
 10__Stack: CMakeFiles/10__Stack.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/leeseungmin/Desktop/algorithm/10. Stack/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 10__Stack"

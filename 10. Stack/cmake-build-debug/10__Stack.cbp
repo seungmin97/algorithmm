@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/leeseungmin/Desktop/algorithm/10. Stack/Bracket.cpp">
+		<Unit filename="/Users/leeseungmin/Desktop/algorithm/10. Stack/Building.cpp">
 			<Option target="10__Stack"/>
 		</Unit>
 		<Unit filename="/Users/leeseungmin/Desktop/algorithm/10. Stack/CMakeLists.txt">

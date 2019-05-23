@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/leeseungmin/Desktop/algorithm/10. Stack/Bracket.cpp" "/Users/leeseungmin/Desktop/algorithm/10. Stack/cmake-build-debug/CMakeFiles/10__Stack.dir/Bracket.cpp.o"
+  "/Users/leeseungmin/Desktop/algorithm/10. Stack/Building.cpp" "/Users/leeseungmin/Desktop/algorithm/10. Stack/cmake-build-debug/CMakeFiles/10__Stack.dir/Building.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
